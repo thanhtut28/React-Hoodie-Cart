@@ -1,0 +1,14 @@
+.icon {
+    font-size: 2rem;
+    position: relative;
+}
+
+.icon .iconNum {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 0.3rem;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    font-size: 1rem;
+}
