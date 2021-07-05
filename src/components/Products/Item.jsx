@@ -11,8 +11,8 @@ const Item = ({ product, onBackHandler, moveToStore }) => {
     };
 
     return (
-        <div className="py-1">
-            <h2 className="text-center py-3">Product Detail</h2>
+        <div className="py-1 pt-5">
+            <h2 className="text-center mt-5 pb-3">Product Detail</h2>
             <div className="row no-gutters align-items-center">
                 <div className="col-sm-6">
                     <img

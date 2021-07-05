@@ -5,7 +5,7 @@ const Footer = () => {
         <footer className="px-3 py-5 bg-primary text-light">
             <div className="row no-gutters text-center">
                 <div className="col-4">THA</div>
-                <div className="col-4">React&copy;2020</div>
+                <div className="col-4">React&copy;2021</div>
                 <div className="col-4">
                     <a
                         href="https://github.com/thanhtut28/React-Hoodie-Cart/tree/main"

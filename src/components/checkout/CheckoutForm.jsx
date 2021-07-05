@@ -31,7 +31,7 @@ const CheckoutForm = ({ cart }) => {
     };
 
     return (
-        <form className="card card-body mt-5" onSubmit={formSubmitHandler}>
+        <form className="card card-body my-5" onSubmit={formSubmitHandler}>
             <h5 className="text-center">Checkout</h5>
             <div className="form-group py-3">
                 <label className="form-label" htmlFor="name">
