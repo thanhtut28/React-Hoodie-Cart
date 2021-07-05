@@ -10,21 +10,15 @@ function App() {
     return (
         <Layout>
             <Switch>
-                <Route path="/" exact>
-                    <Home />
-                </Route>
-                <Route path="/store" exact>
-                    <Store />
-                </Route>
-                <Route path="/store/:productId">
-                    <ProductDetail />
-                </Route>
-                <Route path="/cart">
-                    <Cart />
-                </Route>
-                <Route path="*">
-                    <NotFound />
-                </Route>
+                <Route path="/" exact component={Home} />
+
+                <Route path="/store" exact component={Store} />
+
+                <Route path="/store/:productId" component={ProductDetail} />
+
+                <Route path="/cart" component={Cart} />
+
+                <Route path="*" component={NotFound} />
             </Switch>
         </Layout>
     );
