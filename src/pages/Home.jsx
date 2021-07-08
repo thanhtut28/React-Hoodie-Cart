@@ -2,8 +2,6 @@ import HomeContent from '../components/Home/HomeContent';
 import Footer from '../layout/Footer';
 
 const Home = () => {
-    console.log('This is home page');
-
     return (
         <div className="pt-5 mt-5">
             <div className="text-center mt-5">
